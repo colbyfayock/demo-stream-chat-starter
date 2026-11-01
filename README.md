@@ -1,6 +1,6 @@
-# Stream Chat Starter
+# Demo Stream Chat Starter
 
-A starter project focused on stream chat, built with Next.js.
+A Next.js stream UI that accepts a viewer alias and embeds a YouTube video with play, stop, and replay controls beside a placeholder chat panel.
 
 ## Use this template
 
@@ -10,7 +10,7 @@ npx create-next-app -e https://github.com/colbyfayock/demo-stream-chat-starter
 
 ## Local setup
 
-Install dependencies with yarn and start the development server:
+Install dependencies with yarn, then start the development server:
 
 ```bash
 yarn install
@@ -19,5 +19,5 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-Use `yarn build` to build the project.
-Use `yarn start` to run the production build.
+Use `yarn build` to create a production build.
+After building, use `yarn start` to serve the production build.
